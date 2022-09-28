@@ -80,7 +80,7 @@ export default function Home() {
 	return (
 		<>
 			<div className="flex flex-col items-center gap-6 md:gap-12 content-wrapper">
-				<div className="flex flex-col w-full gap-6 md:flex-row md:justify-between">
+				<div className="flex flex-col w-full gap-6 md:mt-4 md:flex-row md:justify-between">
 					<Searchbar search={search} />
 					<Filter selectedRegion={selectedRegion} />
 				</div>

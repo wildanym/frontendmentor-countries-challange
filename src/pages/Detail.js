@@ -91,7 +91,7 @@ export default function Detail() {
 						<Button title="Back" icon={icon} styling="w-[100px] h-[30px]" />
 					</Link>
 					<div className="flex flex-col w-full gap-7 md:gap-28 md:flex-row md:relative">
-						<div className="md:min-w-[600px] md:min-h-[370px] overflow-hidden flex justify-start md:border md:border-b-slate-200 dark:border-none">
+						<div className="md:min-w-[600px] md:min-h-[370px] overflow-hidden flex justify-start border border-b-slate-200 dark:border-none">
 							<img
 								src={detail.flags.png}
 								alt="flags"

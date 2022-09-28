@@ -38,7 +38,7 @@ export default function Filter(props) {
 			</span>
 			<div
 				id="option"
-				className="dark:bg-darkmodeEl absolute hidden  card-shadow left-0 right-0 -bottom-[9.9rem] p-4 z-10 bg-white"
+				className="dark:bg-darkmodeEl absolute hidden  card-shadow left-0 right-0 -bottom-[11.5rem] p-4 z-10 bg-white"
 			>
 				<p
 					onClick={() => {

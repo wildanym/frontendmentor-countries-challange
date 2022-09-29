@@ -9,7 +9,6 @@ realistic projects.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -17,10 +16,6 @@ realistic projects.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections
-you keep.**
 
 ## Overview
 
@@ -50,15 +45,9 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Tailwindcss](https://tailwindcss.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above
-with your own choices**
-
 ### Continued development
 
 I don't have any ideas, give me some ideas 😺
-
-**Note: Delete this note and the content within this section and replace with
-your own plans for continued development.**
 
 ### Useful resources
 

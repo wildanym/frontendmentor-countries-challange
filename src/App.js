@@ -28,7 +28,7 @@ function App() {
 		<>
 			<Router>
 				<div className="flex flex-col items-center w-full">
-					<div className="container bg-lightmodeBg dark:bg-darkmodeBg">
+					<div className="container transition-colors duration-300 bg-lightmodeBg dark:bg-darkmodeBg">
 						<Navbar changeMode={changeMode} />
 						<Routes>
 							<Route path="/" element={<Home />} />

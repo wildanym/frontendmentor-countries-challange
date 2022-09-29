@@ -90,8 +90,8 @@ export default function Detail() {
 					<Link to={"/"}>
 						<Button title="Back" icon={icon} styling="w-[100px] h-[30px]" />
 					</Link>
-					<div className="flex flex-col w-full gap-7 md:gap-28 md:flex-row md:relative">
-						<div className="md:min-w-[600px] md:min-h-[370px] overflow-hidden flex justify-start border border-b-slate-200 dark:border-none">
+					<div className="flex flex-col w-full gap-7 lg:gap-28 md:gap-10 md:flex-row md:relative">
+						<div className="md:max-w-[600px] md:max-h-[370px] md:w-full overflow-hidden flex justify-start border border-b-slate-200 dark:border-none">
 							<img
 								src={detail.flags.png}
 								alt="flags"
@@ -99,7 +99,7 @@ export default function Detail() {
 							/>
 						</div>
 
-						<div className="flex flex-col w-full gap-12 md:flex-row md:relative md:justify-between">
+						<div className="flex flex-col w-full gap-12 h-fit md:flex-row md:relative md:justify-between">
 							<section className="flex flex-col gap-3">
 								<h2 className="mb-5 text-xl font-bold">{detail.name.common}</h2>
 								<p className="text-sm">
@@ -139,7 +139,7 @@ export default function Detail() {
 								</p>
 							</section>
 							{detail.borders && (
-								<section className="bottom-0 left-0 md:absolute">
+								<section className="left-0 -bottom-36 md:absolute">
 									<h2 className="font-bold">Border Countries :</h2>
 									<div className="flex flex-wrap gap-3 mt-3">
 										{detail.borders.map((item) => {

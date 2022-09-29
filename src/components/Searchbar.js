@@ -10,7 +10,7 @@ export default function Searchbar(props) {
 	}
 
 	return (
-		<div className="flex items-center w-full md:w-[500px] gap-2 p-2 pl-6 card-shadow dark:bg-darkmodeEl">
+		<div className="transition-colors duration-500 flex items-center w-full md:w-[500px] gap-2 p-2 pl-6 card-shadow dark:bg-darkmodeEl">
 			<svg
 				onClick={props.search.bind(this, keyword)}
 				xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function Searchbar(props) {
 						setKeyword(event.target.value);
 					}}
 					type="text"
-					className="w-full p-3 ml-3 transition-colors duration-300 rounded-md placeholder-lightmodeInput dark:placeholder-white dark:bg-darkmodeEl dark:text-darkmodeText focus:outline-none"
+					className="w-full p-3 ml-3 transition-colors duration-1000 rounded-md placeholder-lightmodeInput dark:placeholder-white dark:bg-darkmodeEl dark:text-darkmodeText focus:outline-none"
 					placeholder="Search for a country..."
 				/>
 			</form>

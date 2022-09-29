@@ -1,6 +1,6 @@
 export default function Card(props) {
 	return (
-		<div className="overflow-hidden card-shadow w-[300px] h-[400px] dark:text-darkmodeText dark:bg-darkmodeEl">
+		<div className="transition-colors duration-300 overflow-hidden card-shadow w-[300px] h-[400px] dark:text-darkmodeText dark:bg-darkmodeEl">
 			<div className=" w-[310px] h-[190px] border dark:border-none border-b-slate-200 overflow-hidden">
 				<img
 					src={props.flag}

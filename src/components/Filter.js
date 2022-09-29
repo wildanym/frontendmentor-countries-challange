@@ -14,7 +14,7 @@ export default function Filter(props) {
 			onClick={() => {
 				open();
 			}}
-			className="relative flex justify-between items-center  p-4 bg-white w-[230px] card-shadow dark:bg-darkmodeEl dark:text-darkmodeText"
+			className="transition-colors duration-300 relative flex justify-between items-center  p-4 bg-white w-[230px] card-shadow dark:bg-darkmodeEl dark:text-darkmodeText"
 		>
 			<p className="first:first-letter:uppercase">
 				{region.length > 0 ? region : "Filter by Region"}
@@ -38,7 +38,7 @@ export default function Filter(props) {
 			</span>
 			<div
 				id="option"
-				className="dark:bg-darkmodeEl absolute hidden  card-shadow left-0 right-0 -bottom-[11.5rem] p-4 z-10 bg-white"
+				className="dark:bg-darkmodeEl transition-colors duration-300 absolute hidden  card-shadow left-0 right-0 -bottom-[11.5rem] p-4 z-10 bg-white"
 			>
 				<p
 					onClick={() => {

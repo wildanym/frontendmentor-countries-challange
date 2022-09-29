@@ -49,7 +49,7 @@ export default function Searchbar(props) {
 						setKeyword(event.target.value);
 					}}
 					type="text"
-					className="w-full p-3 ml-3 rounded-md placeholder-lightmodeInput dark:placeholder-white dark:bg-darkmodeEl dark:text-darkmodeText focus:outline-none"
+					className="w-full p-3 ml-3 transition-colors duration-300 rounded-md placeholder-lightmodeInput dark:placeholder-white dark:bg-darkmodeEl dark:text-darkmodeText focus:outline-none"
 					placeholder="Search for a country..."
 				/>
 			</form>

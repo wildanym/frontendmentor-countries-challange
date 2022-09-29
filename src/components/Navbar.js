@@ -9,7 +9,7 @@ export default function Navbar(props) {
 		}
 	}
 	return (
-		<div className="z-50 flex justify-between w-full shadow-md p-7 w-fullfixed bg-lightmodeBg dark:bg-darkmodeEl dark:text-darkmodeText">
+		<div className="z-50 flex justify-between w-full transition-colors duration-300 shadow-md p-7 w-fullfixed bg-lightmodeBg dark:bg-darkmodeEl dark:text-darkmodeText">
 			<h1 className="text-sm font-bold font-nunito">Where in the world?</h1>
 			<div
 				onClick={() => {
